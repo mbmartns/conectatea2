@@ -7,7 +7,7 @@ import { ThemeProvider as EmotionThemeProvider } from '@emotion/react';
 import HomeScreen from './screens/HomeScreen';
 import SplashScreen from './screens/SplashScreen';
 import ConsultaScreen from './screens/ConsultaScreen';
-// import AtividadeScreen from './screens/AtividadeScreen';
+import AtividadeScreen from './screens/AtividadeScreen';
 // import AtividadeDetalhesScreen from './screens/AtividadeDetalhesScreen';
 // import PacienteDetalhesScreen from './screens/PacienteDetalhesScreen';
 
@@ -24,7 +24,7 @@ const App = () => {
             <Stack.Screen name="Splash" component={SplashScreen} />
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="Consulta" component={ConsultaScreen} />
-            {/* <Stack.Screen name="AtividadeScreen" component={AtividadeScreen} /> */}
+            <Stack.Screen name="AtividadeScreen" component={AtividadeScreen} />
             {/* <Stack.Screen name="PacienteDetalhesScreen" component={PacienteDetalhesScreen} /> */}
             {/* <Stack.Screen name="AtividadeDetalhes" component={AtividadeDetalhesScreen} /> */}
           </Stack.Navigator>
